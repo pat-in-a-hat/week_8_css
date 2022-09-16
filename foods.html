@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- Montana Code School x Promineo Week 8 CSS-->
+<!-- Patrick Warner - September 2022 -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 7 HTML - Basic Website </title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1 class = "center" >Mario's Food Emporium</h1>
+
+        <!-- This allows you to navigate between pages by clicking the links to each file-->
+    <div class = "center">
+        <a href="index.html">Homepage</a>
+        <a href="foods.html">Foods</a>
+        <a href = "adventures.html">Adventures</a>
+    </div>
+
+    <!--A table listing the menu items and their prices-->
+    <div class="center">
+    <h2>Specialty Menu Items This Week</h2>
+    <table>
+        <tr>
+            <th>Foods</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Mushroom Stew</td>
+            <td>$3.49</td>
+        </tr>
+        <tr>
+            <td>Fiery Meatballs</td>
+            <td>$6.88</td>
+        </tr>
+        <tr>
+            <td>Peaches & Cream</td>
+            <td>$4.00</td>
+        </tr>
+
+    </table>
+    </div>
+
+    <!-- using a form with some text, email and checkbox submissions so users can order menu items-->
+    <div class = "center">
+    <form>
+        <h2>Submit your orders below!</h2>
+        <input type="text" name="firstName" placeholder="First Name"> <br>
+        <input type="text" name="lastName" placeholder="Last Name"> <br>
+        <input type="email" name="email" placeholder="email"> <br> <br>
+        <input type="checkbox" name = "meal-1" value = "Mushroom Stew"> Mushroom Stew <br>
+        <input type="checkbox" name = "meal-2" value = "Fiery Meatballs"> Fiery Meatballs <br> 
+        <input type="checkbox" name = "meal-3" value = "Peaches & Cream"> Peaches & Cream <br>  <br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+
+    <!-- <img src="https://i.ytimg.com/vi/jkafjMJQs1A/maxresdefault.jpg" alt="a picture of different foods with Mario branding on them"> -->
+    
+</body>
+</html>
