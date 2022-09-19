@@ -1,10 +1,51 @@
 .center {
+    float: none;
+    display: flow-root;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    display: block;
     }
+
+.menu-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family:"Andale mono";
+    font-style: italic;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2f4f4f;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.menu-bar-items {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.menu-bar-items:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #696969;
+}
+
+.active {
+    background-color: #778899;
+}
+
 ul {
     display: inline-block;
     text-align: left;
