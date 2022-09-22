@@ -5,6 +5,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-size: 40px;
     }
 
 body {
@@ -54,6 +55,7 @@ li a:hover {
     background-color: #414544;
     padding: 2% 5% 5% 5%;
     list-style-type: none;
+    text-align: center;
 }
 
 .li-style {
@@ -80,4 +82,58 @@ form {
 #italic {
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3%;
+}
+
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    background-color:#ff4554;
+    height: 100px;
+}
+
+td {
+    background-color:#696969;
+    height: 80px;
+}
+
+tr:hover {
+    background-color: #e60012;
+}
+
+table {
+    width: 80%;
+}
+
+.order-form {
+    font-size: 30px;
+    margin-left: 10%;
+    display: flow-root;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.submit {
+    display: flow-root;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.submit:hover{
+    background-color: #e60012;
+}
+
+input{
+    font-size: 20px;
 }
